@@ -1,0 +1,278 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET ENDS */
+@font-face {
+    font-family: MuseoSans;
+    src: url(../fonts/MuseoSans.ttf);
+}
+@font-face {
+    font-family: MuseoSans-100;
+    src: url(../fonts/MuseoSans-100.ttf);
+}
+@font-face {
+    font-family: MuseoSans-300;
+    src: url(../fonts/MuseoSans-300.ttf);
+}
+@font-face {
+    font-family: MuseoSans-700;
+    src: url(../fonts/MuseoSans-700.ttf);
+}
+body{
+	font-family: MuseoSans;
+}
+.nba-header{
+	background-color: #70ad47;
+	padding: 10px 15px;
+}
+.nba-profile{
+	background-color: #333;
+	padding: 25px 15px;
+}
+.nba-details{
+	overflow: hidden;
+}
+.nba-prof-img{
+	float: left;
+	width: 145px;
+	margin-right: 50px;
+	height: 150px;
+	/*background-color: #fff;
+	border:  2px solid #ccc;*/
+	vertical-align: middle;
+	/*border-radius: 50%;*/
+}
+	.nba-prof-img img{
+		width: 100%;
+		/*height: 100%;
+		line-height: 200px;
+		border-radius: 50%;*/
+	}
+.nba-prof-name{
+	float: left;
+}
+	.nba-social{
+		margin-bottom: 15px;
+	}
+	.nba-social a img{
+		height: 33px;
+		width: 21px;
+		margin-right: 10px;
+	}
+	.nba-social a.lk-w img{
+		height: 29px;
+		width: 29px;
+	}
+	.nba-name a, .nba-followers a{
+		font-family: MuseoSans-100;
+		font-size: 28px;
+		color: #fff;
+		text-decoration: underline;
+		width: 250px;
+		display: inline-block;
+		line-height: 32px;
+		margin-bottom: 15px;
+	}
+	.nba-followers a{
+		font-size: 15px;
+		line-height: 18px;
+	}
+.nba-follow{
+	background-color: #70ad47;
+	color: #fff;
+	font-size: 30px;
+	padding: 15px;
+	width: 290px;
+	text-align: center;
+	font-family: MuseoSans-100;
+	display: inline-block;
+	border-radius: 10px;
+	margin-top: 60px;
+}
+.nba-video video{
+	width: 100%;
+	height: auto;
+}
+.video-data{
+	background-color: #ebebeb;
+	padding:  10px 0;
+	border-bottom: 1px solid #ccc;
+}
+	.nba-views{
+		width: 100px;
+		text-align: center;
+	}
+	.nba-views i{
+		display: block;
+	}
+.nba-video-follow a{
+	display: inline-block;
+	margin-right: 10px;
+}
+.channels-list{
+	overflow: hidden;
+	height: auto;
+}
+	.a-channel{
+		width: 20%;
+		float: left;
+		max-height: 274px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+		.a-channel img{
+			width: 100%;
+			height: 100%;
+			border:  1px solid #ccc;
+		}
+		.channel-data{
+			position: absolute;
+			background-color: #9cd2d0;
+			filter: blur(10px);
+			  -webkit-filter: blur(10px);
+			  -moz-filter: blur(10px);
+			  -o-filter: blur(10px);
+			  -ms-filter: blur(10px);
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			z-index: 99999;
+			line-height: 200px;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 1s;
+            font-size:1.8em;
+		}
+		.a-channel:hover>.channel-data{
+			opacity: 1;
+			filter: blur(0);
+			  -webkit-filter: blur(0);
+			  -moz-filter: blur(0);
+			  -o-filter: blur(0);
+			  -ms-filter: blur(0);
+		}
+.nba-producer{
+	padding: 90px 0;
+	font-family: MuseoSans-100;
+    
+    opacity:1;
+}
+	.title{
+		color: #70ad47;
+		font-size:2.5em;
+		padding: 10px 60px;
+		margin-bottom: 25px;
+	}
+	.title > span{
+		position: relative;
+	}
+	.title > span:first-child:before{
+		  border-left: 1px solid #70ad47;
+		  content: '';
+		  position: absolute;
+		  left: -62px;
+		  width: 1px;
+		  height: 60px;
+		  top: -27px;
+	}
+	.title > span:first-child:after{
+	    border-top: 1px solid #70ad47;
+		content: '';
+		position: absolute;
+		left: -61px;
+		width: 60px;
+		height: 1px;
+		top: -27px;
+	}
+	.title > span:last-child:before{
+		border-left: 1px solid #70ad47;
+		content: '';
+		position: absolute;
+		left: 42px;
+		width: 1px;
+		height: 60px;
+		top: -2px;
+	}
+	.title > span:last-child:after{
+		border-top: 1px solid #70ad47;
+		content: '';
+		position: absolute;
+		left: -18px;
+		width: 60px;
+		height: 1px;
+		top: 57px;
+	}
+	.nba-producer p{
+		margin-bottom: 15px;
+		font-size: 16px;
+		line-height: 20px;
+		color: #333;
+	}
+	.nba-producer p span{
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 15px;	
+	}
+.img-bg-col
+{
+	  background: rgba(78, 127, 82, 0.64);
+	
+}
+/* Edited by Lalit */
+.cat_box{
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+	.cat_box_img{
+		border-radius: 4px 4px 0 0;
+	}
+.cat_section .cat_box .cat_box_img{
+	  padding: 12px 0px!important;
+}
+	.cat_section .cat_box .cat_box_img img{
+		max-height: 100px!important;
+		width: auto!important;
+	}
+.cat_section .cat_box .cat_box_img{
+	margin-bottom: 0!important;
+}
+	.cat_section .cat_box span {
+	  padding: 25px 15px;
+	  line-height: 24px;
+	}
+.i-hide, .hide-all{
+	display: none;
+}
+.download{
+	cursor: pointer;
+}

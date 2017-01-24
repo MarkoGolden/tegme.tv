@@ -1,0 +1,726 @@
+*{
+  margin:0;
+  padding:0;
+}
+/*
+My Custom CSS
+=============
+
+Author:  Mirko Tedeschi
+Updated: Febbraio 2016
+Notes:
+
+*/
+
+/* --------------------------------------
+common
+-------------------------------------- */
+
+.margin-rigth-5{
+  margin-right: 5px;
+}
+
+/* --------------------------------------
+videolist
+-------------------------------------- */
+
+.thumbnail{
+    cursor:pointer;
+}
+
+/* --------------------------------------
+logo
+-------------------------------------- */
+.logo-container{
+    bottom:70px;
+    right:20px;
+    float: right;
+    position: relative;
+}
+
+/* --------------------------------------
+Player
+-------------------------------------- */
+.video-js .vjs-default-skin .vjs-big-play-button {
+   display: none;
+ }
+
+.hide{
+  display: none;
+}
+
+.pre-load{
+  background: url(../images/bgvideo.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  position:relative;
+  z-index: 1000;
+}
+
+/* --------------------------------------
+button bar container
+-------------------------------------- */
+
+.div-container-trasparent{
+  position:absolute;
+  top:0;
+  width:100%;
+  height: 100%;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+/*horizontal bar*/
+.horizontal-back{
+   bottom:0;
+   position:absolute;
+   width:100%;
+   height:40px;
+   background-color:#000;
+   z-index: 1;
+   margin: 0;
+   padding: 0;
+   opacity:0.6;
+   display: none;
+}
+
+.horizontal-bar{
+   bottom:0;
+   position:absolute;
+   z-index: 2;
+   margin: 0;
+   padding: 0;
+   display: none;
+   width: 100%;
+}
+
+/* --------------------------------------
+banner
+-------------------------------------- */
+
+/*.video-js .banner-container{*/
+.banner-container img{
+  position:absolute;
+  z-index:2;
+  top:70%;
+  width: 80%;
+  left:10%;
+}
+
+/* --------------------------------------
+embed
+-------------------------------------- */
+
+/*button text*/
+.video-js .vjs-embed-button .vjs-control-text{
+    position: relative;
+    top:10px;
+}
+
+.vjs-embedoverlay-input
+{
+  width: 100%;
+  height: 40px;
+  border:1px solid #ccc;
+  color:#000;
+  text-align:center;
+  font-size: 14px;
+}
+
+.embed-container {
+
+    position: absolute;
+    width: 100%;
+    bottom: -46px;
+    display:none;
+	z-index:99999;
+}
+
+/* --------------------------------------
+button bar
+-------------------------------------- */
+
+/*button text*/
+.video-js .vjs-button-overlay .vjs-control-text{
+    position: relative;
+}
+
+.cursor-auto{
+  cursor: auto;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+/*.div-container-trasparent .button-background-h{*/
+.video-js .button-background-h{
+  padding: 12px;
+  margin-left: 12px;
+  background-position: center;
+  background-size: 100%, 100%, auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.div-container-trasparent .button-background-v{
+  padding: 20px;
+  background-position: center;
+  background-size: 60%, 60%, auto;
+  background-repeat: no-repeat;
+}
+
+
+
+.video-js .vjs-enbeded{
+    background-image: url('../images/embed.png');
+}
+
+.video-js .vjs-button1-disabled{
+	background-image: url('../images/emoticon/EnvyD.png');
+}
+
+.video-js .vjs-button1{
+	background-image: url('../images/emoticon/Envy.png');
+}
+
+.video-js .vjs-button1:hover{
+	background-image: url('../images/emoticon/EnvyD.png');
+}
+
+.video-js .vjs-button1:active{
+  background-image: url('../images/emoticon/EnvyS.png');
+}
+
+/*******/
+
+.video-js .vjs-button2-disabled{
+	background-image: url('../images/emoticon/HappyD.png');
+}
+
+.video-js .vjs-button2{
+	background-image: url('../images/emoticon/Happy.png');
+}
+
+.video-js .vjs-button2:hover{
+	background-image: url('../images/emoticon/HappyD.png');
+}
+
+
+.video-js .vjs-button2:active{
+	background-image: url('../images/emoticon/HappyS.png');
+}
+
+/*******/
+.video-js .vjs-button3-disabled{
+	background-image: url('../images/emoticon/sadD.png');
+}
+
+.video-js .vjs-button3{
+	background-image: url('../images/emoticon/sad.png');
+}
+
+.video-js .vjs-button3:hover{
+	background-image: url('../images/emoticon/sadD.png');
+}
+
+.video-js .vjs-button3:active{
+	background-image: url('../images/emoticon/sadS.png');
+}
+
+/*******/
+.video-js .vjs-button4-disabled{
+	background-image: url('../images/emoticon/SexyD.png');
+}
+
+.video-js .vjs-button4{
+	background-image: url('../images/emoticon/Sexy.png');
+}
+
+.video-js .vjs-button4:hover{
+	background-image: url('../images/emoticon/SexyD.png');
+}
+.video-js .vjs-button4:active{
+	background-image: url('../images/emoticon/SexyS.png');
+}
+
+/*******/
+.video-js .vjs-button5-disabled{
+	background-image: url('../images/emoticon/wowD.png');
+}
+
+.video-js .vjs-button5{
+	background-image: url('../images/emoticon/wow.png');
+}
+
+.video-js .vjs-button5:hover{
+	background-image: url('../images/emoticon/wowD.png');
+}
+
+.video-js .vjs-button5:active{
+	background-image: url('../images/emoticon/wowS.png');
+}
+
+/*******/
+.video-js .vjs-button6-disabled{
+	background-image: url('../images/emoticon/blockD.png');
+}
+
+.video-js .vjs-button6{
+	background-image: url('../images/emoticon/block.png');
+}
+
+.video-js .vjs-button6:hover{
+	background-image: url('../images/emoticon/blockD.png');
+}
+
+.video-js .vjs-button6:active{
+	background-image: url('../images/emoticon/blockS.png');
+}
+
+/*******/
+.video-js .vjs-button7-disabled{
+	background-image: url('../images/emoticon/LoveD.png');
+}
+
+.video-js .vjs-button7{
+	background-image: url('../images/emoticon/Love.png');
+}
+
+.video-js .vjs-button7:hover{
+	background-image: url('../images/emoticon/LoveD.png');
+}
+
+.video-js .vjs-button7:active{
+	background-image: url('../images/emoticon/LoveS.png');
+}
+
+/*******/
+.video-js .vjs-button8-disabled{
+	background-image: url('../images/emoticon/TegLikeD.png');
+}
+
+.video-js .vjs-button8{
+	background-image: url('../images/emoticon/TegLike.png');
+}
+
+.video-js .vjs-button8:hover{
+	background-image: url('../images/emoticon/TegLikeD.png');
+}
+
+.video-js .vjs-button8:active{
+	background-image: url('../images/emoticon/TegLikeS.png');
+}
+
+/*******/
+
+.video-js .vjs-button9-disabled{
+	background-image: url('../images/emoticon/unlikeD.png');
+}
+
+.video-js .vjs-button9{
+	background-image: url('../images/emoticon/unlike.png');
+}
+
+.video-js .vjs-button9:hover{
+	background-image: url('../images/emoticon/unlikeD.png');
+}
+
+.video-js .vjs-button9:active{
+	background-image: url('../images/emoticon/unlikeS.png');
+}
+
+/*******/
+
+.video-js .vjs-button-blank{
+	background-image: url('../images/emoticon/blank.png');
+}
+/*******/
+
+.video-js .vjs-button-star-disabled{
+	background-image: url('../images/emoticon/starD.png');
+}
+
+.video-js .vjs-button-star{
+	background-image: url('../images/emoticon/logoadvmin2.png');
+}
+
+/*.video-js .vjs-button-star:hover{
+	background-image: url('../images/emoticon/starD.png');
+}
+
+.video-js .vjs-button-star:active{
+	background-image: url('../images/emoticon/star.png');
+}*/
+
+/* --------------------------------------
+  responsive
+   -------------------------------------- */
+@media (max-width: 1024px)   {
+  .div-container-trasparent .button-background-h{
+     padding: 18px;
+     margin-left: 5px;
+     background-size: 50%, 50%, auto;
+   }
+ }
+
+ /* Iphone 6 Plus Portrait */
+ @media (max-width: 414px)   {
+   .video-js .banner-container{
+     bottom:-20px;
+   }
+
+   .pre-load{
+     min-height: 35%;
+   }
+
+   .div-container-trasparent .button-background-h{
+     padding: 18px;
+     background-size: 80%, 80%, auto;
+     margin-left: 2px;
+   }
+
+   .horizontal-bar{
+      width:100%;
+      height:36px;
+   }
+
+   .horizontal-back{
+      height:35px;
+
+   }
+
+ }
+
+ /* Iphone 5 Plus Portrait */
+ @media (max-width: 320px)   {
+   .video-js .banner-container{
+     bottom:-20px;
+   }
+
+   .pre-load{
+     min-height: 35%;
+   }
+
+   .div-container-trasparent .button-background-h{
+     padding: 15px;
+     background-size: 80%, 80%, auto;
+     margin-left: 2px;
+   }
+
+   .horizontal-bar{
+      width:100%;
+      height:30px;
+   }
+   .horizontal-back{
+      height:30px;
+
+   }
+
+ }
+
+ @media (max-width: 240px)   {
+
+   .div-container-trasparent .button-background-h{
+     padding: 10px;
+     background-size: 80%, 80%, auto;
+     padding-top:20px;
+   }
+
+   .horizontal-bar{
+      width:100%;
+      /*height:30px;*/
+   }
+   .horizontal-back{
+      /*height:20px;*/
+
+   }
+
+ }
+
+
+/*  Last updates */
+video {
+    background-color: #000000;
+}
+.main-wrapper{
+    background-color: black;
+        max-width: 100%;
+    width:100%;
+    max-width:1350px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+#video-wrap-new{
+    width:100%;
+    position: relative;
+}
+.logo-img{
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: 1;
+}
+.banner{
+    position: absolute;
+    z-index: 1;
+    bottom: 105px;
+    max-width:100%;
+}
+.banner img{
+ max-width:100%; 
+}
+.video_adv_link{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  text-decoration: none;
+  z-index:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+  color:#70AD47;
+}
+
+/* Player custom styles */
+.video-js button, .vjs-volume-menu-button{
+    height:30px!important;
+    /* background: rgba(47,40,48,0.9); */
+}
+.vjs-play-control{
+    left: 20px!important;
+}
+.vjs-progress-control{
+    padding: 30px 0 20px 0!important;
+    position: absolute!important;
+    width: 100%!important;
+    bottom: 60px!important;
+    left: 0!important;
+    background-color: rgba(43, 51, 63, 0.7);
+}
+.vjs-control-bar{
+    padding-bottom:60px;
+}
+.vjs-fullscreen-control{
+    position: absolute!important;
+    right:20px;
+}
+.vjs-volume-menu-button{
+    position: absolute!important;
+    right:137px;   
+}
+.video-js .vjs-play-progress:before{
+    background:#70AD47!important;
+    color:#70AD47!important;
+    top: -0.2em!important;
+    font-size: 1.5em!important;
+}
+.vjs-progress-holder{
+    height:1em!important;
+}
+.vjs-load-progress{
+    margin-top: 3.6px!important;
+    background:#356216!important;
+}
+.vjs-play-progress{
+    height:1em!important;
+    background:#00aba9!important;
+}
+.video-js .vjs-volume-level{
+    /* background:#356216; */
+    height:0.5em!important;
+}
+.video-js .vjs-volume-level:before {
+    font-size: 1.2em!important;
+    background: #70AD47;
+    color: #70AD47;
+}
+.vjs-remaining-time-display{
+    margin-left: 20px;
+    padding: 5px 40px 5px 15px;
+}
+.vjs-enbeded{
+    margin-left:25%!important;
+}
+.video-js .vjs-control{
+  width:50px;
+  height:40px!important;
+}
+.video-js .vjs-control:hover{
+  z-index:1;
+}
+.video-js .vjs-control:hover ~ .vjs-remaining-time{
+  z-index:0;
+}
+.video-js .vjs-control:before {
+    font-size: 2.4em!important;
+}
+.vjs-volume-bar{
+  margin-top: 20px!important;
+}
+.button-background-h{
+  margin-top:8px;
+}
+.button-background-h{
+  max-width:50px;
+  padding: 15px!important;
+}
+.video-js .vjs-button-star{
+  position: absolute;
+  right: 80px;
+  /* background-color: rgba(47,40,48,0.9); */
+  padding: 20px 24px!important;
+  margin: 0;
+  background-size: 80%, 100%, auto!important;
+}
+
+.vjs-big-play-button{
+    width:0!important;
+    height:0!important;
+    margin:0!important;
+    padding:0!important;
+    top: 47%!important;
+    left: 49%!important;
+}
+/* Responsivity */
+@media only screen and (max-width:960px){
+    /* styles for browsers larger than 960px; */
+    .vjs-enbeded{
+        margin-left:15%!important;
+    }
+}
+@media only screen and (max-width:800px){
+    /* styles for browsers larger than 960px; */
+    .button-background-h{
+        margin-left:5px!important;
+    }
+    .vjs-enbeded{
+        margin-left:15%!important;
+    }
+}
+@media only screen and (max-width:760px){
+    /* styles for browsers larger than 960px; */
+    .vjs-enbeded{
+        margin-left:10%!important;
+    }
+}
+@media only screen and (max-width:660px){
+    /* styles for browsers larger than 960px; */
+    .button-background-h{
+        margin-left:2px!important;
+    }
+    .vjs-enbeded{
+        margin-left:10%!important;
+    }
+    .vjs-button-blank{
+        display:none!important;
+    }
+}
+@media only screen and (max-width:600px){
+    
+    .button-background-h{
+        padding: 15px!important;
+        margin-top:45px;
+        margin-left:10px!important;
+    }
+    .vjs-enbeded{
+        margin-left:-78px!important;
+    }
+    .vjs-button-blank{
+        display:none!important;
+    }
+    .vjs-control-bar{
+      height:8em!important;
+    }
+    .vjs-progress-control{
+      bottom:80px!important;
+    }
+}
+@media only screen and (max-width:395px){
+    
+  .button-background-h{
+    margin-left: 2px!important;
+  }
+  .vjs-enbeded{
+        margin-left:-78px!important;
+    }
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width:768px){
+   /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
+
+
+/*map icon frame*/
+.icon_frame:after,
+.icon_frame:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+
+/* this border color controlls the color of the triangle (what looks like the fill of the triangle) */
+.icon_frame:after {
+    top: 100%;
+  left:45%;
+    border-color:#fff transparent  transparent transparent ;
+    border-width: 10px;
+}
+
+/* this border color controlls the outside, thin border */
+.icon_frame:before {
+    top: 100%;
+    left:44%;
+    border-color:silver  transparent transparent transparent ;
+    border-width: 12px;
+}
+
+/* Fb share button */
+.fb-share-btn{
+  cursor:pointer;
+  width:168px;
+  color:#fff;
+  background: #3b5998;
+  padding: 2px 4px;
+  border-radius: 4px;
+  height: 36px;
+  border:2px solid #3b5998;
+}
+.fb-share-btn i{
+  font-size: 30px;
+}
+.fb-share-btn span{
+  margin: -26px 0 0 30px;
+  display: block;
+}
+.fb-share-btn:hover{
+  background:#fff;
+  color:#52a301!important;
+  border:2px solid #52a301!important;
+}
+/*end Fb share button */

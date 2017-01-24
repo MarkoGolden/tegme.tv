@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>MPEG-DASH Player - Video On Demand Streaming</title>
+        <script language="javascript">AC_FL_RunContent = 0;</script>
+        <!-- Libraries -->
+        <!-- DASH-AVC/265 reference implementation -->
+        <script src="dPlayer/js/shaka-player.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+
+        <!-- Video js css-->
+        <link href="dPlayer/node_modules/video.js/dist/video-js.css" rel="stylesheet">
+
+        <!-- end Video js -->
+        <link rel="stylesheet" href="dPlayer/css/style_of_player.css" type="text/css" media="screen, projection">
+
+        <script>
+            function supports_media_source()
+            {
+                "use strict";
+                var hasWebKit = (window.WebKitMediaSource !== null && window.WebKitMediaSource !== undefined),
+                    hasMediaSource = (window.MediaSource !== null && window.MediaSource !== undefined);
+                return (hasWebKit || hasMediaSource);
+            }
+        </script>
+
+    </head>
+    <body id="body">
+
+    <div id="video-wrap-new"  class="video-container">
+        <!-- Video JS video -->
+        <video id="videoObj" x-webkit-airplay="allow" class="video-js vjs-default-skin vjs-big-play-centered" controls data-setup="{}">
+        </video>
+        <!-- end Video JS video -->
+
+    </div>
+
+    <input type="button" value="Play" onclick="document.myMovie.play()">
+
+    <script src="dPlayer/node_modules/video.js/dist/video.js"></script>
+    <!-- If you'd like to support IE8 -->
+    <script src="dPlayer/node_modules/video.js/dist/ie8/videojs-ie8.min.js"></script>
+    <!-- Video js HLS support library -->
+    <!-- <script src="js/videojs-contrib-hls.min.js"></script> -->
+
+    <script src="dPlayer/js/api.js"></script>
+    <script src="dPlayer/js/TegmePlayer.js"></script>
+
+    </body>
+</html>

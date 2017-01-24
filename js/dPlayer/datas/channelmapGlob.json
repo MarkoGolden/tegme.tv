@@ -1,0 +1,56 @@
+﻿[
+  {
+    "idchannel": 16,
+    "channellogo": "http://new.tegme.tv/public/channels16/startup/logo.png",
+    "channelname": "Foodever",
+    "imgowner": "http://new.tegme.tv/public/channels16/startup/owner.jpg",
+    "address": "via roma 12 firenze italia ",
+    "georef": null,
+    "link": "http://new.tegme.tv/Foodever"
+  },
+  {
+    "idchannel": 17,
+    "channellogo": "http://new.tegme.tv/public/channels17/startup/logo.png",
+    "channelname": "MyFriedTV",
+    "imgowner": "http://new.tegme.tv/public/channels17/startup/owner.jpg",
+    "address": "via roma 13 milano italia",
+    "georef": null,
+    "link": "http://new.tegme.tv/MyFriedTV"
+  },
+  {
+    "idchannel": 18,
+    "channellogo": "http://new.tegme.tv/public/channels18/startup/logo.jpeg",
+    "channelname": "ProVideo",
+    "imgowner": "http://new.tegme.tv/public/channels18/startup/owner.jpeg",
+    "address": "via roma 14 verona italia",
+    "georef": null,
+    "link": "http://new.tegme.tv/ProVideo"
+  },
+  {
+    "idchannel": 19,
+    "channellogo": "http://new.tegme.tv/public/channels19/startup/logo.png",
+    "channelname": "nba",
+    "imgowner": "http://new.tegme.tv/public/channels19/startup/owner.jpg",
+    "address": "via roma 15 palermo italia",
+    "georef": null,
+    "link": "http://new.tegme.tv/nba"
+  },
+  {
+    "idchannel": 20,
+    "channellogo": "http://new.tegme.tv/public/channels20/startup/logo.jpeg",
+    "channelname": "Andrea",
+    "imgowner": "http://new.tegme.tv/public/channels20/startup/owner.jpeg",
+    "address": "via roma 16 cuneo italia",
+    "georef": null,
+    "link": "http://new.tegme.tv/Andrea"
+  },
+  {
+    "idchannel": 23,
+    "channellogo": "http://new.tegme.tv/public/channels23/startup/logo.png",
+    "channelname": "HP World",
+    "imgowner": "http://new.tegme.tv/public/channels23/startup/owner.jpeg",
+    "address": "via roma 17 frosinone italia",
+    "georef": null,
+    "link": "http://new.tegme.tv/HP World"
+  }
+]

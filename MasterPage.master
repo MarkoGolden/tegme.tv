@@ -1,0 +1,168 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<%--<html class="no-js">--%>
+<!--<![endif]-->
+<%--<html lang="en">--%>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>Tegme -- Channel</title>
+
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href="channels/css/style.css" rel="stylesheet">
+	<link href="channels/sass/tegme.css" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	@media (max-width: 767px) {.a-channel {
+    width: 50%;}
+	}
+	@media (max-width: 532px) {
+		.nba-follow {width:250px;margin-top:1px;}
+		.nba-prof-name {
+    float: left;
+    margin-top: 70px;
+}
+	.nba-prof-img {
+    margin: 0 auto;
+    float: none;
+    width: 155px;
+    margin-right: 50px;
+    max-height: 165px;
+    /*background-color: #fff;
+    border: 2px solid #ccc;
+    vertical-align: middle;
+    border-radius: 50%;*/
+}
+	}
+	@media (max-width: 452px) {
+	.navbar-brand{width: 50%;}
+	.a-channel {
+    width: 100%;}
+	}
+	
+	@media (max-width: 991px){
+	   .nba-details{display:table;margin:0 auto;}
+	   .nba-details_follow{    text-align: center;
+    margin-top: 25px;}	
+	}
+	.header {
+    background-image:none !important;
+    background-size: cover;
+}
+	.header .header_inner{background:none;}
+    .header .header_inner .header_wrap{height:114px;}
+	.channels-list{margin:50px 0px;}
+	.header .header_inner .header_wrap .header_wrap_inner .nav_wrap .tegme_menu {
+    margin-top: 0px;
+}
+.navbar-collapse {
+
+    border-top: 0px solid transparent;
+
+}
+.navbar-collapse {
+
+   -webkit-box-shadow: inset 0 1px 0 transparent; 
+  box-shadow: inset 0 1px 0 transparent; 
+}
+.logo_nba{margin-top: -29px;}
+    </style>
+
+	<%--<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Tegme</title>--%>
+
+	
+
+	<!-- Bootstrap -->
+	<%--<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" />--%>
+
+
+	<!-- Custom -->
+	<%--<link href="css/style.css" rel="stylesheet" />
+
+	<link href="css/animate.min.css" rel="stylesheet" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->--%>
+
+	
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+	
+		
+
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+		</asp:ContentPlaceHolder>
+
+
+		<%--<br clear="all" >--%>
+		<footer class="search_section" style="background: #333;">
+			<div class="container search_section_container">
+				<div class="table" style="min-height: 250px;">
+					<div class="table_cell">
+						<div class="footer">
+							<img runat="server" src="~/channels/img/logo.png" />
+							<h4>Copyright 2016 Tegme srl. All rights reserved.</h4>
+							<h5>Contact Us</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
+
+
+
+		<%-- <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>Copyright © 2016 Tegme.</p>
+            </div>
+            <div class="footerlinks">
+                <ul>
+                    <li><a href="www.tegme.tv">Home</a></li>
+                    <li><a href="www.tegme.com" target="_blank" >About Us</a></li>
+                    <li><a href="mailto:info@tegme.com">Contact Us</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </footer>--%>
+    
+    
+  
+
+	</form>
+
+</body>
+</html>
